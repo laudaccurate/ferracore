@@ -54,10 +54,10 @@ export function TestimonialsSection() {
               style={{
                 background:
                   index % 3 === 0
-                    ? "linear-gradient(135deg, rgba(102, 126, 234, 0.7) 0%, rgba(118, 75, 162, 0.7) 100%)"
+                    ? "linear-gradient(135deg, rgba(28, 42, 79, 0.9) 0%, rgba(30, 58, 138, 0.9) 100%)"
                     : index % 3 === 1
-                      ? "linear-gradient(135deg, rgba(240, 147, 251, 0.7) 0%, rgba(245, 87, 108, 0.7) 100%)"
-                      : "linear-gradient(135deg, rgba(79, 172, 254, 0.7) 0%, rgba(0, 242, 254, 0.7) 100%)",
+                      ? "linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(37, 99, 235, 0.8) 100%)"
+                      : "linear-gradient(135deg, rgba(23, 37, 84, 0.9) 0%, rgba(30, 64, 175, 0.9) 100%)",
               }}
             >
               <div className="absolute inset-0 opacity-20">

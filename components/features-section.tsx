@@ -56,12 +56,12 @@ export function FeaturesSection() {
               style={{
                 background:
                   index % 4 === 0
-                    ? "linear-gradient(135deg, rgba(30, 58, 138, 0.7) 0%, rgba(55, 48, 163, 0.7) 100%)"
+                    ? "linear-gradient(135deg, rgba(28, 42, 79, 0.9) 0%, rgba(30, 58, 138, 0.9) 100%)"
                     : index % 4 === 1
-                      ? "linear-gradient(135deg, rgba(217, 119, 6, 0.7) 0%, rgba(245, 158, 11, 0.7) 100%)"
+                      ? "linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(37, 99, 235, 0.8) 100%)"
                       : index % 4 === 2
-                        ? "linear-gradient(135deg, rgba(30, 64, 175, 0.7) 0%, rgba(37, 99, 235, 0.7) 100%)"
-                        : "linear-gradient(135deg, rgba(180, 83, 9, 0.7) 0%, rgba(217, 119, 6, 0.7) 100%)",
+                        ? "linear-gradient(135deg, rgba(23, 37, 84, 0.9) 0%, rgba(30, 64, 175, 0.9) 100%)"
+                        : "linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(49, 46, 129, 0.85) 100%)",
               }}
             >
               <div className="absolute inset-0 opacity-20">
