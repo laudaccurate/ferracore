@@ -111,7 +111,7 @@ export function ServicesSection() {
                     : "linear-gradient(135deg, rgba(212, 175, 55, 0.95) 0%, rgba(184, 134, 11, 0.9) 100%)",
               }}
             >
-              <div className="absolute inset-0 opacity-20">
+              <div className="absolute inset-0 opacity-40">
                 <svg width="100%" height="100%" viewBox="0 0 60 60" className="absolute inset-0">
                   <defs>
                     <pattern
@@ -124,7 +124,7 @@ export function ServicesSection() {
                     >
                       {index % 5 === 0 && (
                         <>
-                          <circle cx="15" cy="15" r="3" fill="white" opacity="0.3" />
+                          <circle cx="15" cy="15" r="3" fill="white" opacity="0.5" />
                           <rect
                             x="10"
                             y="10"
@@ -133,7 +133,7 @@ export function ServicesSection() {
                             fill="none"
                             stroke="white"
                             strokeWidth="0.5"
-                            opacity="0.2"
+                            opacity="0.4"
                           />
                         </>
                       )}
@@ -144,21 +144,21 @@ export function ServicesSection() {
                             stroke="white"
                             strokeWidth="1"
                             fill="none"
-                            opacity="0.3"
+                            opacity="0.5"
                           />
-                          <circle cx="15" cy="15" r="1.5" fill="white" opacity="0.4" />
+                          <circle cx="15" cy="15" r="1.5" fill="white" opacity="0.6" />
                         </>
                       )}
                       {index % 5 === 2 && (
                         <>
-                          <polygon points="15,5 20,12 15,25 10,12" fill="white" opacity="0.2" />
-                          <circle cx="15" cy="15" r="2" fill="none" stroke="white" strokeWidth="0.5" opacity="0.3" />
+                          <polygon points="15,5 20,12 15,25 10,12" fill="white" opacity="0.4" />
+                          <circle cx="15" cy="15" r="2" fill="none" stroke="white" strokeWidth="0.5" opacity="0.5" />
                         </>
                       )}
                       {index % 5 === 3 && (
                         <>
-                          <path d="M5,5 L25,25 M25,5 L5,25" stroke="white" strokeWidth="0.5" opacity="0.2" />
-                          <circle cx="15" cy="15" r="4" fill="none" stroke="white" strokeWidth="0.5" opacity="0.3" />
+                          <path d="M5,5 L25,25 M25,5 L5,25" stroke="white" strokeWidth="0.5" opacity="0.4" />
+                          <circle cx="15" cy="15" r="4" fill="none" stroke="white" strokeWidth="0.5" opacity="0.5" />
                         </>
                       )}
                       {index % 5 === 4 && (
@@ -171,10 +171,10 @@ export function ServicesSection() {
                             fill="none"
                             stroke="white"
                             strokeWidth="0.5"
-                            opacity="0.2"
+                            opacity="0.4"
                             rx="3"
                           />
-                          <circle cx="15" cy="15" r="2" fill="white" opacity="0.3" />
+                          <circle cx="15" cy="15" r="2" fill="white" opacity="0.5" />
                         </>
                       )}
                     </pattern>

@@ -58,7 +58,7 @@ export function TestimonialsSection() {
                     : "linear-gradient(135deg, rgba(212, 175, 55, 0.95) 0%, rgba(184, 134, 11, 0.9) 100%)",
               }}
             >
-              <div className="absolute inset-0 opacity-20">
+              <div className="absolute inset-0 opacity-40">
                 <svg width="100%" height="100%" viewBox="0 0 100 100" className="absolute inset-0">
                   <defs>
                     <pattern
@@ -69,8 +69,8 @@ export function TestimonialsSection() {
                       height="25"
                       patternUnits="userSpaceOnUse"
                     >
-                      <path d="M12.5,5 Q20,12.5 12.5,20 Q5,12.5 12.5,5" fill="white" opacity="0.1" />
-                      <circle cx="12.5" cy="12.5" r="1" fill="white" opacity="0.2" />
+                      <path d="M12.5,5 Q20,12.5 12.5,20 Q5,12.5 12.5,5" fill="white" opacity="0.3" />
+                      <circle cx="12.5" cy="12.5" r="1" fill="white" opacity="0.4" />
                     </pattern>
                   </defs>
                   <rect width="100%" height="100%" fill={`url(#testimonial-pattern-${index})`} />

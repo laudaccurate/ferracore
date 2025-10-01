@@ -60,12 +60,12 @@ export function FeaturesSection() {
                     : "linear-gradient(135deg, rgba(212, 175, 55, 0.95) 0%, rgba(184, 134, 11, 0.9) 100%)",
               }}
             >
-              <div className="absolute inset-0 opacity-20">
+              <div className="absolute inset-0 opacity-40">
                 <svg width="100%" height="100%" viewBox="0 0 100 100" className="absolute inset-0">
                   <defs>
                     <pattern id={`pattern-${index}`} x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                      <circle cx="10" cy="10" r="2" fill="white" opacity="0.3" />
-                      <path d="M0,10 Q5,0 10,10 T20,10" stroke="white" strokeWidth="0.5" fill="none" opacity="0.2" />
+                      <circle cx="10" cy="10" r="2" fill="white" opacity="0.5" />
+                      <path d="M0,10 Q5,0 10,10 T20,10" stroke="white" strokeWidth="0.5" fill="none" opacity="0.4" />
                     </pattern>
                   </defs>
                   <rect width="100%" height="100%" fill={`url(#pattern-${index})`} />
